@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.warrantywise.app.ui.home.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/nav_warranties"
+        android:name="com.warrantywise.app.ui.warranty.WarrantiesFragment"
+        android:label="My Warranties" />
+
+    <fragment
+        android:id="@+id/nav_add_warranty"
+        android:name="com.warrantywise.app.ui.warranty.AddWarrantyFragment"
+        android:label="Add Warranty" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.warrantywise.app.ui.profile.ProfileFragment"
+        android:label="Profile" />
+
+</navigation>
