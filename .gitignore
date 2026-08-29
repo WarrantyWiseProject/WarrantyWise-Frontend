@@ -4,10 +4,14 @@
 
 # Gradle
 .gradle/
+.gradle-user-home/
 **/build/
 
 # Local machine configuration
 local.properties
+.env
+.env.*
+!.env.example
 
 # Generated / temporary files
 captures/

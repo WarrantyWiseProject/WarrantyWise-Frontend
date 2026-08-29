@@ -2,7 +2,12 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/nav_home">
+    app:startDestination="@id/nav_auth">
+
+    <fragment
+        android:id="@+id/nav_auth"
+        android:name="com.warrantywise.app.ui.auth.AuthFragment"
+        android:label="Sign in" />
 
     <fragment
         android:id="@+id/nav_home"
